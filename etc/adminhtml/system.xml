@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="magelearn" translate="label" sortOrder="10">
+            <label>Magelearn Modules</label>
+        </tab>
+        <section id="dynamic_list" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+        	<class>separator-top</class>
+            <label>Dynamic CMS Page List</label>
+            <tab>magelearn</tab>
+            <resource>Magelearn_DynamicPageList::config</resource>
+            <group id="selection" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Configuration</label>
+                <field id="cms_pages" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>CMS Page Mapping</label>
+                    <frontend_model>Magelearn\DynamicPageList\Block\Adminhtml\Form\Field\DynamicRows</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                    <class>required-entry validate-select</class>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
