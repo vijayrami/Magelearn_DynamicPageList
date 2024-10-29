@@ -19,10 +19,10 @@
 	{
 	    "type": "package",
 	    "package": {
-	        "name": "magelearn/magento2-module-dynamic-file-upload",
+	        "name": "magelearn/magento2-module-dynamic-page-list",
 	        "version": "1.0",
 	        "source": {
-	            "url": "https://github.com/vijayrami/Magelearn_DynamicFileUpload.git",
+	            "url": "https://github.com/vijayrami/Magelearn_DynamicPageList.git",
 	            "type": "git",
 	            "reference": "main"
 	        }
