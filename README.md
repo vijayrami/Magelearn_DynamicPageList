@@ -14,5 +14,3 @@ Perfect for administrators, this tool simplifies the customization of CMS page l
 ![3_image](/assets/3_image.png)
 
 ![4_image](/assets/4_image.png)
-
-![5_image](/assets/5_image.png)
